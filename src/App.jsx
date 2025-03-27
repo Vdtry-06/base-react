@@ -7,20 +7,29 @@ import ModalApp from './component/ModalApp'
 import MapApp from './component/MapApp'
 import Page from './component/Page'
 import Counter from './component/Conter'
+import CounterRef from './component/CounterRef'
+import Stopwatch from './component/Stopwatch'
 
 function App() {
 
   return (
     <>
+      {/* useState */}
       <Form/>
       <TaskApp/>
       <LabelApp/>
+
+      {/* useEffect */}
       <ChatApp/>
       <ModalApp/>
       <MapApp/>
       <br />
       <Page/>
       <Counter/>
+
+      {/* useRef */}
+      <CounterRef/>
+      <Stopwatch/>
     </>
   )
 }
