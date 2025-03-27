@@ -11,6 +11,7 @@ import CounterRef from './component/CounterRef';
 import Stopwatch from './component/Stopwatch';
 import FormFocus from './component/FormFocus';
 import CatFriends from './component/CatFriends';
+import CounterReducer from './component/CounterReducer';
 
 function App() {
 
@@ -34,7 +35,11 @@ function App() {
       <Stopwatch/>
       <br />
       <FormFocus/>
+      <br />
       <CatFriends/>
+
+      {/* useReducer */}
+      <CounterReducer/>
     </>
   )
 }
