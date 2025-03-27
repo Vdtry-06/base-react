@@ -56,9 +56,10 @@ export default function Form() {
 
     const imageStyle = {
         maxWidth: '100%',
-        height: 'auto',
+        height: '100px',
         marginTop: '15px',
-        borderRadius: '4px'
+        borderRadius: '4px',
+        width: '100px',
     };
 
     const infoStyle = {
@@ -130,7 +131,7 @@ export default function Form() {
                 </p>
             </div>
             
-            <img 
+            <img
                 src={form.imageUrl} 
                 alt="Profile" 
                 style={imageStyle}

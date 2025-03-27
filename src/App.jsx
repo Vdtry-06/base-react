@@ -1,6 +1,7 @@
 import './App.css'
 import Form from './component/Form'
 import TaskApp from './component/TaskApp'
+import LabelApp from './component/LabelApp'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Form/>
       <TaskApp/>
+      <LabelApp/>
     </>
   )
 }
