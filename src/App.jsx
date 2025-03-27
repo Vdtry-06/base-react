@@ -9,6 +9,7 @@ import Page from './component/Page'
 import Counter from './component/Conter'
 import CounterRef from './component/CounterRef'
 import Stopwatch from './component/Stopwatch'
+import FormFocus from './component/FormFocus'
 
 function App() {
 
@@ -30,6 +31,8 @@ function App() {
       {/* useRef */}
       <CounterRef/>
       <Stopwatch/>
+      <br />
+      <FormFocus/>
     </>
   )
 }
